@@ -1,4 +1,4 @@
-# Kirov Learn SA 
+# Dinaledi Student Hub 
 ### Powered by Kirov Dynamics Technology & House of Tech
 
 **THE NATIONAL SMART EDUCATION & DISCIPLINE ECOSYSTEM**
