@@ -10,8 +10,8 @@ export default function HomeScreen({ navigation }) {
         {/* Header */}
         <View style={styles.header}>
           <View>
-            <Text style={styles.greeting}>Hello, Learner 👋</Text>
-            <Text style={styles.title}>Find Your Perfect Tutor</Text>
+            <Text style={styles.greeting}>Kirov Learn SA 🇿🇦</Text>
+            <Text style={styles.title}>Smart Education Ecosystem</Text>
           </View>
           <TouchableOpacity style={styles.profileBtn}>
             <User color="#6366f1" size={24} />
@@ -37,12 +37,15 @@ export default function HomeScreen({ navigation }) {
 
         {/* Featured Subjects */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Featured Subjects</Text>
+          <View style={styles.sectionHeader}>
+            <Text style={styles.sectionTitle}>Tutor Marketplace</Text>
+            <TouchableOpacity onPress={() => navigation.navigate('Tutors')}>
+              <Text style={styles.seeAll}>See All Tutors</Text>
+            </TouchableOpacity>
+          </View>
           <View style={styles.grid}>
             <SubjectTile name="Mathematics" count="120+ Tutors" />
             <SubjectTile name="Physical Science" count="85+ Tutors" />
-            <SubjectTile name="English" count="95+ Tutors" />
-            <SubjectTile name="Coding" count="45+ Tutors" />
           </View>
         </View>
 
@@ -112,7 +115,9 @@ const styles = StyleSheet.create({
   },
   searchText: { marginLeft: 10, color: '#94a3b8', fontSize: 15 },
   section: { marginTop: 30 },
-  sectionTitle: { fontSize: 18, fontWeight: 'bold', color: '#1e293b', paddingHorizontal: 20, marginBottom: 15 },
+  sectionHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 20, marginBottom: 15 },
+  sectionTitle: { fontSize: 18, fontWeight: 'bold', color: '#1e293b' },
+  seeAll: { color: '#6366f1', fontSize: 13, fontWeight: 'bold' },
   categories: { paddingLeft: 20 },
   catCard: {
     width: 100,

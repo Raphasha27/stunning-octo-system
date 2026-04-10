@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
-import { Home, Users, Calendar, User } from "lucide-react-native";
 import { ActivityIndicator, View } from "react-native";
+import { Home, BookOpen, PlaySquare, Calendar, Users, User } from "lucide-react-native";
 
 import HomeScreen from "../screens/HomeScreen";
 import TutorsScreen from "../screens/TutorsScreen";
@@ -12,6 +12,10 @@ import ProfileScreen from "../screens/ProfileScreen";
 import LoginScreen from "../screens/LoginScreen";
 import ChatScreen from "../screens/ChatScreen";
 import PaymentScreen from "../screens/PaymentScreen";
+import LearnScreen from "../screens/learning/LearnScreen";
+import VideosScreen from "../screens/learning/VideosScreen";
+import ScheduleScreen from "../screens/discipline/ScheduleScreen";
+import CommunityScreen from "../screens/community/CommunityScreen";
 import { authService } from "../services/authService";
 
 const Tab = createBottomTabNavigator();
@@ -24,9 +28,10 @@ function TabNavigator() {
         tabBarIcon: ({ focused, color, size }) => {
           let IconComponent;
           if (route.name === 'Home') IconComponent = Home;
-          else if (route.name === 'Tutors') IconComponent = Users;
-          else if (route.name === 'Booking') IconComponent = Calendar;
-          else if (route.name === 'Profile') IconComponent = User;
+          else if (route.name === 'Learn') IconComponent = BookOpen;
+          else if (route.name === 'Videos') IconComponent = PlaySquare;
+          else if (route.name === 'Schedule') IconComponent = Calendar;
+          else if (route.name === 'Community') IconComponent = Users;
 
           return <IconComponent color={color} size={size} />;
         },
@@ -40,9 +45,10 @@ function TabNavigator() {
       })}
     >
       <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Tutors" component={TutorsScreen} />
-      <Tab.Screen name="Booking" component={BookingScreen} />
-      <Tab.Screen name="Profile" component={ProfileScreen} />
+      <Tab.Screen name="Learn" component={LearnScreen} />
+      <Tab.Screen name="Videos" component={VideosScreen} />
+      <Tab.Screen name="Schedule" component={ScheduleScreen} />
+      <Tab.Screen name="Community" component={CommunityScreen} />
     </Tab.Navigator>
   );
 }

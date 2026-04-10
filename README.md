@@ -1,29 +1,28 @@
-# TutorConnect SA 🇿🇦
+# Kirov Learn SA 🇿🇦
+### Powered by Kirov Dynamics Technology & House of Tech
 
-Empowering South African students and tutors through a safe, local, and reliable marketplace.
+A national smart learning and discipline platform designed for South Africa's future.
 
-## 🚀 Overview
-TutorConnect SA is a premium mobile platform designed to bridge the gap between unemployed youth/graduates and students who need academic support. Built with Expo and React Native, the app offers seamless navigation across a variety of subjects, levels, and study modes (online or physical).
+## 🚀 The Vision
+Kirov Learn SA is not just a tutoring app; it is a **Smart Education Ecosystem**. We combine academic support, daily discipline, and parent-teacher communication into one powerful "Education OS" for South African students, teachers, and parents.
 
-## ✨ Core Features
-- **Smart Tutor Marketplace**: Find verified local tutors for Math, Science, Coding, and more.
-- **Real-Time Mentorship**: In-app chat system with instant messaging between students and tutors.
-- **Secure Payments**: Integrated with **PayFast** for safe, local South African transactions.
-- **Personalized Experience**: Custom profiles for learners and tutors to manage their progress.
+## 🧱 The Five Pillars
+1.  **🎓 Learning System (Self-Study Hub)**: 1-Click "ONE BUTTON LEARN" access to notes, past papers, and video lessons for all SA curriculum subjects.
+2.  **🧑‍🏫 Teacher System**: Ultra-simple "ONE TAP VIDEO LESSON" dashboard for recording and uploading lessons instantly.
+3.  **👨‍👩‍👧 Parent-Teacher Connection**: Real-time communication and automated weekly progress reports on attendance, performance, and behavior.
+4.  **⏰ Daily Discipline System**: A unique schedule builder with smart reminders for waking up, homework, study, and sleep.
+5.  **💪 Personal Development**: Life skills tracking, focus scores, and healthy habit building.
 
 ## 🛡️ Safety & Scam Protection
-Protecting our community is our #1 priority.
-
-- **Wait for Payment Confirmation**: Never start a session until payment is confirmed in-app.
-- **Communicate In-App**: Always use the TutorConnect chat system for transparency.
-- **Public Places**: For physical sessions, we highly recommend meeting in public libraries or cafes.
-- **Report Susicious Activity**: Use the "Help Center" in your profile to report any suspicious behavior immediately.
-- **Privacy First**: We use Firebase's secure authentication and encryption for all user data.
+Protecting our learners and teachers is our highest priority.
+- **Safe-Pay Integration**: All transactions are handled securely through PayFast.
+- **In-App Communication**: Stay safe by keeping all educational chats within the platform.
+- **Verified Content**: High-quality lessons from trusted South African teachers.
 
 ## 📋 Getting Started
-1. Install **Expo Go** on your mobile device.
-2. Scan the Metro QR code generated during development.
-3. Sign up to start your learning or teaching journey!
+1. Install **Expo Go** on your device.
+2. Scan the Metro QR code.
+3. Join the ecosystem as a Student, Teacher, or Parent.
 
 ---
-© 2026 TutorConnect SA. All Rights Reserved.
+© 2026 Kirov Dynamics Technology. All Rights Reserved.
