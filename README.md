@@ -15,6 +15,8 @@ Our mission is to scale academic excellence and discipline starting from our pri
 
 ## 🧱 Core Pillars
 - **🎓 Smart Learning Hub**: "One Button Learn" access to all SA curriculum subjects (Grades 1-12).
+- **🏠 Learning Modes**: Support for **Online Classes** and **Physical House Calls** (Pretoria region focus).
+- **💳 Transparent Billing**: All tutoring is charged **Per Hour** based on standard SA market rates (R150 - R350/hr).
 - **🧑‍🏫 Senior Teacher Training**: Ultra-simplified dashboards designed for tech-onboarding older educators.
 - **👨‍👩‍👧 Inter-Generational Monitoring**: Auto-generated weekly reports on attendance, performance, and behavior.
 - **⏰ Discipline Engine**: Automated **Notification Engine** for routines (Wake-up, Homework, Study, Sleep).

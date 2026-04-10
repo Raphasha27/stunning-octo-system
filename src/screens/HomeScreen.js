@@ -53,9 +53,9 @@ export default function HomeScreen({ navigation }) {
           <Text style={styles.sectionTitle}>High School Focus 🇿🇦</Text>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.categories}>
             <CategoryCard icon={GraduationCap} label="Grade 12" color="#e0e7ff" iconColor="#6366f1" />
-            <CategoryCard icon={BookOpen} label="Grade 11" color="#fef3c7" iconColor="#d97706" />
-            <CategoryCard icon={Laptop} label="Grade 10" color="#dcfce7" iconColor="#16a34a" />
-            <CategoryCard icon={MapPin} label="Rural/Urban" color="#fee2e2" iconColor="#dc2626" />
+            <CategoryCard icon={MapPin} label="House Calls" color="#fef3c7" iconColor="#d97706" />
+            <CategoryCard icon={Laptop} label="Online" color="#dcfce7" iconColor="#16a34a" />
+            <CategoryCard icon={BookOpen} label="Revision" color="#fee2e2" iconColor="#dc2626" />
           </ScrollView>
         </View>
 
