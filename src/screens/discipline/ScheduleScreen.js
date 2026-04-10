@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Bell, CheckCircle2, Circle, Calendar as CalendarIcon } from 'lucide-react-native';
+import { Bell, CheckCircle2, Circle, Calendar as CalendarIcon, BellRing } from 'lucide-react-native';
+import { notificationService } from '../../services/notificationService';
 
 const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 
@@ -39,6 +40,22 @@ const WEEKLY_DATA = {
 
 export default function ScheduleScreen() {
   const [selectedDay, setSelectedDay] = useState('Mon');
+  const [notificationsEnabled, setNotificationsEnabled] = useState(false);
+
+  const toggleNotifications = async () => {
+    if (!notificationsEnabled) {
+      const granted = await notificationService.requestPermissions();
+      if (granted) {
+        // Schedule pre-configured reminders for the selected day/week
+        await notificationService.scheduleReminder('Wake Up ⏰', 'Time to start your productive day!', 6, 30);
+        await notificationService.scheduleReminder('Homework Time 📚', 'Open Kirov Learn and finish your tasks.', 15, 0);
+        setNotificationsEnabled(true);
+      }
+    } else {
+      await notificationService.cancelAllNotifications();
+      setNotificationsEnabled(false);
+    }
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -47,8 +64,11 @@ export default function ScheduleScreen() {
           <Text style={styles.title}>Weekly Scheduler</Text>
           <Text style={styles.subtitle}>Building discipline in Pretoria & beyond 🇿🇦</Text>
         </View>
-        <TouchableOpacity style={styles.remBtn}>
-           <Bell size={22} color="#6366f1" />
+        <TouchableOpacity 
+          style={[styles.remBtn, notificationsEnabled && { backgroundColor: '#6366f1' }]} 
+          onPress={toggleNotifications}
+        >
+           {notificationsEnabled ? <BellRing size={22} color="#fff" /> : <Bell size={22} color="#6366f1" />}
         </TouchableOpacity>
       </View>
 

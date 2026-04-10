@@ -5,9 +5,9 @@ import { Star, MapPin, Filter, Search, ChevronRight, RefreshCw } from 'lucide-re
 import { tutorService } from '../services/tutorService';
 
 const INITIAL_TUTORS = [
-  { id: '1', name: 'Dr. John Mathe', subject: 'Mathematics', level: 'Grade 10-12', rating: 4.9, price: 'R250', location: 'Pretoria East', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop' },
+  { id: '1', name: 'Dr. John Mathe', subject: 'Mathematics', level: 'Grade 10-12', rating: 4.9, price: 'R250', location: 'Atteridgeville, Pta', image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop' },
   { id: '2', name: 'Ms. Sarah Dube', subject: 'Physical Science', level: 'Grade 12', rating: 4.8, price: 'R200', location: 'Sunnyside, Pta', image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop' },
-  { id: '3', name: 'Mr. David Lepota', subject: 'English HL', level: 'Grade 11-12', rating: 4.7, price: 'R180', location: 'Mamelodi, Pta', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop' },
+  { id: '3', name: 'Mr. David Lepota', subject: 'English HL', level: 'Grade 11-12', rating: 4.7, price: 'R180', location: 'Atteridgeville Hub', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop' },
   { id: '4', name: 'Thabo Mokoena', subject: 'Accounting', level: 'Grade 10-12', rating: 5.0, price: 'R220', location: 'Hatfield, Pta', image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200&auto=format&fit=crop' },
 ];
 

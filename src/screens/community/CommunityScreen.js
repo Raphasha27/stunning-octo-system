@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { MessageSquare, FileText, Bell, Users } from 'lucide-react-native';
+import { MessageSquare, FileText, Bell, Users, GraduationCap } from 'lucide-react-native';
 
-export default function CommunityScreen() {
+export default function CommunityScreen({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scrollContent}>
@@ -21,9 +21,19 @@ export default function CommunityScreen() {
           <Text style={styles.sectionTitle}>Quick Actions</Text>
           <View style={styles.actionGrid}>
              <ActionIcon icon={MessageSquare} label="Chats" color="#6366f1" />
-             <ActionIcon icon={FileText} label="Reports" color="#f59e0b" />
+             <ActionIcon 
+               icon={FileText} 
+               label="Reports" 
+               color="#f59e0b" 
+               onPress={() => navigation.navigate('TeacherReport')} 
+             />
              <ActionIcon icon={Users} label="Groups" color="#10b981" />
-             <ActionIcon icon={Bell} label="Alerts" color="#ef4444" />
+             <ActionIcon 
+               icon={GraduationCap} 
+               label="Training" 
+               color="#ed64a6" 
+               onPress={() => navigation.navigate('TeacherTraining')} 
+             />
           </View>
         </View>
 
@@ -51,8 +61,8 @@ export default function CommunityScreen() {
   );
 }
 
-const ActionIcon = ({ icon: Icon, label, color }) => (
-  <TouchableOpacity style={styles.actionItem}>
+const ActionIcon = ({ icon: Icon, label, color, onPress }) => (
+  <TouchableOpacity style={styles.actionItem} onPress={onPress}>
     <View style={[styles.actionIcon, { backgroundColor: color + '15' }]}>
        <Icon size={24} color={color} />
     </View>

@@ -16,6 +16,8 @@ import LearnScreen from "../screens/learning/LearnScreen";
 import VideosScreen from "../screens/learning/VideosScreen";
 import ScheduleScreen from "../screens/discipline/ScheduleScreen";
 import CommunityScreen from "../screens/community/CommunityScreen";
+import TeacherReportForm from "../screens/teacher/TeacherReportForm";
+import TeacherTrainingScreen from "../screens/teacher/TeacherTrainingScreen";
 import { authService } from "../services/authService";
 
 const Tab = createBottomTabNavigator();
@@ -81,8 +83,12 @@ export default function AppNavigator() {
         ) : (
           <>
             <Stack.Screen name="Main" component={TabNavigator} />
+            <Stack.Screen name="Tutors" component={TutorsScreen} />
+            <Stack.Screen name="Booking" component={BookingScreen} />
             <Stack.Screen name="Chat" component={ChatScreen} />
             <Stack.Screen name="Payment" component={PaymentScreen} />
+            <Stack.Screen name="TeacherReport" component={TeacherReportForm} />
+            <Stack.Screen name="TeacherTraining" component={TeacherTrainingScreen} />
           </>
         )}
       </Stack.Navigator>

@@ -40,11 +40,11 @@ export default function HomeScreen({ navigation }) {
           <Text style={styles.sectionTitle}>Pretoria Spotlight 📍</Text>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.categories}>
              <View style={styles.spotlightCard}>
-                <Text style={styles.spotlightTitle}>Pretoria East Study Drive</Text>
+                <Text style={styles.spotlightTitle}>Atteridgeville Hub Drive</Text>
                 <Text style={styles.spotlightText}>Join 500+ students this Saturday.</Text>
              </View>
              <View style={styles.spotlightCard}>
-                <Text style={styles.spotlightTitle}>Mamelodi Exam Hub</Text>
+                <Text style={styles.spotlightTitle}>Pretoria East Hub</Text>
                 <Text style={styles.spotlightText}>Free past papers available now.</Text>
              </View>
           </ScrollView>
