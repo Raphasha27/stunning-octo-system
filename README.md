@@ -6,7 +6,7 @@
 ---
 
 ## The Vision
-Kirov Learn SA is a state-of-the-art educational "Operating System" designed specifically for the South African context. Moving beyond simple tutoring, it is an inter-generational platform built for:
+Dinaledi is a state-of-the-art educational "Operating System" designed specifically for the South African context. Moving beyond simple tutoring, it is an inter-generational platform built for:
 - **Primary School** (Grades 1-7) - All SA Subjects.
 - **High School** (Grades 8-12) - All SA Subjects.
 - **Tertiary Level** - University & College Specialized Tutors.
