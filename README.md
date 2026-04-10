@@ -6,7 +6,12 @@
 ---
 
 ## 🚀 The Vision
-Kirov Learn SA is a state-of-the-art educational "Operating System" designed specifically for the South African context. Moving beyond simple tutoring, it is an inter-generational platform that bridges the gap between students (1-18 years), parents, and educators. Our mission is to scale academic excellence and discipline starting from our primary hub in **Atteridgeville** and expanding throughout Pretoria and the nation.
+Kirov Learn SA is a state-of-the-art educational "Operating System" designed specifically for the South African context. Moving beyond simple tutoring, it is an inter-generational platform built for:
+- **Primary School** (Grades 1-7)
+- **High School** (Grades 8-12)
+- **Senior Educators & Parents** (Training, Mentorship & Monitoring)
+
+Our mission is to scale academic excellence and discipline starting from our primary hub in **Atteridgeville** and expanding throughout Pretoria and the nation.
 
 ## 🧱 Core Pillars
 - **🎓 Smart Learning Hub**: "One Button Learn" access to all SA curriculum subjects (Grades 1-12).
