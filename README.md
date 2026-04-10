@@ -7,15 +7,17 @@
 
 ## 🚀 The Vision
 Kirov Learn SA is a state-of-the-art educational "Operating System" designed specifically for the South African context. Moving beyond simple tutoring, it is an inter-generational platform built for:
-- **Primary School** (Grades 1-7)
-- **High School** (Grades 8-12)
+- **Primary School** (Grades 1-7) - All SA Subjects.
+- **High School** (Grades 8-12) - All SA Subjects.
+- **Tertiary Level** - University & College Specialized Tutors.
 - **Senior Educators & Parents** (Training, Mentorship & Monitoring)
 
 Our mission is to scale academic excellence and discipline starting from our primary hub in **Atteridgeville** and expanding throughout Pretoria and the nation.
 
 ## 🧱 Core Pillars
-- **🎓 Smart Learning Hub**: "One Button Learn" access to all SA curriculum subjects (Grades 1-12).
-- **🏠 Learning Modes**: Support for **Online Classes** and **Physical House Calls** (Pretoria region focus).
+- **🎓 Universal Subject Coverage**: Complete support for all subjects taught in South African Primary, High, and Tertiary institutions.
+- **🧑‍🎓 Qualified Expert Tutors**: A curated network of well-qualified university graduates and seasoned teachers waiting to mentor their next student.
+- **🏠 Learning Modes**: Support for **Online Classes** and **Physical House Calls** (Atteridgeville Hub focus).
 - **💳 Transparent Billing**: All tutoring is charged **Per Hour** based on standard SA market rates (R150 - R350/hr).
 - **🧑‍🏫 Senior Teacher Training**: Ultra-simplified dashboards designed for tech-onboarding older educators.
 - **👨‍👩‍👧 Inter-Generational Monitoring**: Auto-generated weekly reports on attendance, performance, and behavior.
