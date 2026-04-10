@@ -19,7 +19,7 @@ Our mission is to scale academic excellence and discipline starting from our pri
 ##  The Five Pillar System
 Kirov Learn SA is built on five core architectural pillars that ensure a holistic education experience:
 
-### 1. 🎓 Universal Learning Hub
+### 1. Universal Learning Hub
 Comprehensive support for every subject in the South African curriculum. Whether it's Foundation Phase Literacy or University-level Engineering, our platform hosts qualified experts waiting to mentor.
 
 ### 2. Absolute Safety & Security
