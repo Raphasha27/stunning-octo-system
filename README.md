@@ -10,22 +10,34 @@ Kirov Learn SA is a state-of-the-art educational "Operating System" designed spe
 - **Primary School** (Grades 1-7) - All SA Subjects.
 - **High School** (Grades 8-12) - All SA Subjects.
 - **Tertiary Level** - University & College Specialized Tutors.
-- **Senior Educators & Parents** (Training, Mentorship & Monitoring)
+- **Senior Educators & Parents** - Training, Mentorship & Monitoring.
 
 Our mission is to scale academic excellence and discipline starting from our primary hub in **Atteridgeville** and expanding throughout Pretoria and the nation.
 
-## 🧱 Core Pillars
-- **🎓 Universal Subject Coverage**: Complete support for all subjects taught in South African Primary, High, and Tertiary institutions.
-- **🧑‍🎓 Qualified Expert Tutors**: A curated network of well-qualified university graduates and seasoned teachers waiting to mentor their next student.
-- **🏠 Learning Modes**: Support for **Online Classes** and **Physical House Calls** (Atteridgeville Hub focus).
-- **💳 Transparent Billing**: All tutoring is charged **Per Hour** based on standard SA market rates (R150 - R350/hr).
-- **🧑‍🏫 Senior Teacher Training**: Ultra-simplified dashboards designed for tech-onboarding older educators.
-- **👨‍👩‍👧 Inter-Generational Monitoring**: Auto-generated weekly reports on attendance, performance, and behavior.
-- **⏰ Discipline Engine**: Automated **Notification Engine** for routines (Wake-up, Homework, Study, Sleep).
-- **🛡️ Community Guard**: Anti-scam protection with Safe-Pay (PayFast) and in-app verified communication.
-- **📝 Teacher HR Portal**: Educators submit their qualifications and profiles directly to Kirov HR for vetting and onboarding.
-- **🚨 Emergency SOS System**: One-tap emergency panic button with direct dial to SAPS (10111), Ambulance, Child Protection, and more.
-- **📍 Parental Safety Tracker**: Real-time session monitoring showing child location, tutor identity, and session duration.
+---
+
+## 🧱 The Five Pillar System
+Kirov Learn SA is built on five core architectural pillars that ensure a holistic education experience:
+
+### 1. 🎓 Universal Learning Hub
+Comprehensive support for every subject in the South African curriculum. Whether it's Foundation Phase Literacy or University-level Engineering, our platform hosts qualified experts waiting to mentor.
+
+### 2. 🛡️ Absolute Safety & Security
+- **🚨 Emergency SOS**: One-tap panic button with direct integration to SAPS (10111), Ambulance, and Child Protection.
+- **📍 Parental Safety Tracker**: Live monitoring of tutor sessions, location tracking, and verified tutor ID logging.
+- **💳 Safe-Pay System**: Secure, scam-proof payments via PayFast (ZAR).
+
+### 3. ⏰ Discipline & Routine Engine
+- **Automated Reminders**: Smart notifications for Wake-up (06:30), Homework (15:00), Study, and Sleep.
+- **Weekly Scheduler**: A day-by-day ritual builder to turn students into high-performers.
+
+### 4. 🧑‍🏫 Teacher Empowerment & HR
+- **HR Application Portal**: A dedicated gateway for well-qualified teachers to submit credentials for vetting.
+- **Senior Teacher Training**: Ultra-simple "One-Tap" interfaces for older educators to digitize their wisdom.
+
+### 5. 👨‍👩‍👧 Inter-Generational Logic
+- **Automated Reporting**: Real-time performance, attendance, and behavior metrics sent directly to parents' phones.
+- **Community Forum**: A safe space for Pretoria parents to discuss educational growth.
 
 ---
 
@@ -42,15 +54,15 @@ All student data (Progress, Schedule, Reports) is encrypted at rest and in trans
 All lessons recorded by teachers are their legal intellectual property. Kirov Learn SA serves as a secure vault for this content, protecting senior educators from piracy and unauthorized distribution of their training materials.
 
 ### 4. Continuous Monitoring
-Our "House of Tech" security team monitors the ecosystem 24/7 for suspicious behavior from both the student and tutor sides, ensuring Atteridgeville remains a safe digital hub for learning.
+Our "House of Tech" security team monitors the ecosystem 24/7 for suspicious behavior, ensuring Atteridgeville remains a safe digital hub for learning and growth.
 
 ---
 
 ## 📋 Milestone Development
 - **Status**: Milestone Build 1.0 (Live Terminal Scanning Enabled)
-- **Primary Hub**: Atteridgeville, Pretoria
-- **Engine**: Cross-platform Notification & Reporting Suite
-- **Backend Architecture**: High-Scale Firebase & MongoDB Ready
+- **Primary Hub**: Atteridgeville, Pretoria 📍
+- **Service Model**: In-Person House Calls & Online Lessons (Charged per hour at SA Market Rates).
+- **Engine**: Local Notification Engine & Real-time Weather/Time Integration.
 
 ---
 
