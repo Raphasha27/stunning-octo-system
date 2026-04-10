@@ -4,14 +4,38 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Search, GraduationCap, BookOpen, Laptop, MapPin, User } from 'lucide-react-native';
 
 export default function HomeScreen({ navigation }) {
+  const [currentTime, setCurrentTime] = React.useState(new Date());
+
+  React.useEffect(() => {
+    const timer = setInterval(() => setCurrentTime(new Date()), 60000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const formattedDate = currentTime.toLocaleDateString('en-ZA', { 
+    weekday: 'long', 
+    day: 'numeric', 
+    month: 'long' 
+  });
+
+  const formattedTime = currentTime.toLocaleTimeString('en-ZA', {
+    hour: '2-digit',
+    minute: '2-digit'
+  });
+
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView showsVerticalScrollIndicator={false}>
         {/* Header */}
         <View style={styles.header}>
           <View>
-            <Text style={styles.greeting}>Kirov Learn SA 🇿🇦</Text>
-            <Text style={styles.title}>Smart Education Ecosystem</Text>
+            <View style={styles.timeRow}>
+               <Text style={styles.greeting}>{formattedDate} • {formattedTime}</Text>
+            </View>
+            <Text style={styles.title}>Kirov Learn SA 🇿🇦</Text>
+            <View style={styles.weatherRow}>
+               <MapPin size={12} color="#6366f1" />
+               <Text style={styles.weatherText}>Pretoria: 24°C Sunny ☀️</Text>
+            </View>
           </View>
           <TouchableOpacity style={styles.profileBtn}>
             <User color="#6366f1" size={24} />
@@ -102,8 +126,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     paddingTop: 20,
   },
-  greeting: { fontSize: 16, color: '#64748b', fontWeight: '500' },
-  title: { fontSize: 24, fontWeight: 'bold', color: '#1e293b', marginTop: 4 },
+  greeting: { fontSize: 13, color: '#64748b', fontWeight: 'bold', textTransform: 'uppercase' },
+  timeRow: { flexDirection: 'row', alignItems: 'center', marginBottom: 5 },
+  weatherRow: { flexDirection: 'row', alignItems: 'center', marginTop: 5 },
+  weatherText: { fontSize: 13, color: '#6366f1', marginLeft: 5, fontWeight: 'bold' },
+  title: { fontSize: 22, fontWeight: 'bold', color: '#1e293b' },
   profileBtn: {
     width: 45,
     height: 45,
