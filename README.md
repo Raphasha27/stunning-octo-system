@@ -23,6 +23,9 @@ Our mission is to scale academic excellence and discipline starting from our pri
 - **👨‍👩‍👧 Inter-Generational Monitoring**: Auto-generated weekly reports on attendance, performance, and behavior.
 - **⏰ Discipline Engine**: Automated **Notification Engine** for routines (Wake-up, Homework, Study, Sleep).
 - **🛡️ Community Guard**: Anti-scam protection with Safe-Pay (PayFast) and in-app verified communication.
+- **📝 Teacher HR Portal**: Educators submit their qualifications and profiles directly to Kirov HR for vetting and onboarding.
+- **🚨 Emergency SOS System**: One-tap emergency panic button with direct dial to SAPS (10111), Ambulance, Child Protection, and more.
+- **📍 Parental Safety Tracker**: Real-time session monitoring showing child location, tutor identity, and session duration.
 
 ---
 

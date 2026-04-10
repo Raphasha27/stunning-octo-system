@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { MessageSquare, FileText, Bell, Users, GraduationCap } from 'lucide-react-native';
+import { MessageSquare, FileText, Users, GraduationCap, UserPlus, Shield } from 'lucide-react-native';
 
 export default function CommunityScreen({ navigation }) {
   return (
@@ -27,7 +27,12 @@ export default function CommunityScreen({ navigation }) {
                color="#f59e0b" 
                onPress={() => navigation.navigate('TeacherReport')} 
              />
-             <ActionIcon icon={Users} label="Groups" color="#10b981" />
+             <ActionIcon 
+               icon={UserPlus} 
+               label="HR Apply" 
+               color="#10b981" 
+               onPress={() => navigation.navigate('TeacherProfile')} 
+             />
              <ActionIcon 
                icon={GraduationCap} 
                label="Training" 
@@ -52,6 +57,11 @@ export default function CommunityScreen({ navigation }) {
             date="Week 11 (Mar 03)" 
           />
         </View>
+
+        <TouchableOpacity style={styles.sosBtn} onPress={() => navigation.navigate('Safety')}>
+           <Shield size={22} color="#fff" />
+           <Text style={styles.sosBtnText}>🚨 Safety & Emergency Contacts</Text>
+        </TouchableOpacity>
 
         <TouchableOpacity style={styles.forumBtn}>
            <Text style={styles.forumBtnText}>Open Parent Forum</Text>
@@ -125,4 +135,6 @@ const styles = StyleSheet.create({
   perfText: { fontSize: 11, fontWeight: 'bold' },
   forumBtn: { width: '100%', padding: 18, borderRadius: 16, backgroundColor: '#1e293b', alignItems: 'center', marginTop: 10 },
   forumBtnText: { color: '#fff', fontSize: 16, fontWeight: 'bold' },
+  sosBtn: { width: '100%', padding: 18, borderRadius: 16, backgroundColor: '#dc2626', alignItems: 'center', marginTop: 10, flexDirection: 'row', justifyContent: 'center' },
+  sosBtnText: { color: '#fff', fontSize: 16, fontWeight: 'bold', marginLeft: 10 },
 });
