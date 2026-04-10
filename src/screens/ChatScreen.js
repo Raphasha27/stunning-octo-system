@@ -76,6 +76,10 @@ export default function ChatScreen({ route, navigation }) {
         </TouchableOpacity>
       </View>
 
+      <View style={styles.safetyBanner}>
+        <Text style={styles.safetyText}>🛡️ Safe-Pay: Never pay outside the app to avoid scams.</Text>
+      </View>
+
       <FlatList
         ref={flatListRef}
         data={messages}
@@ -121,6 +125,14 @@ const styles = StyleSheet.create({
   headerName: { fontSize: 16, fontWeight: 'bold', color: '#1e293b' },
   headerStatus: { fontSize: 12, color: '#10b981' },
   headerIcon: { marginLeft: 15 },
+  safetyBanner: {
+    backgroundColor: '#fffbeb',
+    padding: 8,
+    alignItems: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: '#fef3c7',
+  },
+  safetyText: { fontSize: 11, color: '#d97706', fontWeight: '600' },
   messageList: { padding: 20 },
   messageBubble: {
     maxWidth: '80%',
