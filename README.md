@@ -12,9 +12,9 @@ Dinaledi is a state-of-the-art educational "Operating System" designed specifica
 - **Tertiary Level** - University & College Specialized Tutors.
 - **Senior Educators & Parents** - Training, Mentorship & Monitoring.
 
-Our mission is to scale academic excellence and discipline starting from our primary hub in **Atteridgeville** and expanding throughout Pretoria and the nation.
+Our mission is to scale academic excellence and discipline starting from our primary hub ,expanding throughout Pretoria and the nation.
 
----
+
 
 ##  The Five Pillar System
 Dinaledi Student Hub is built on five core architectural pillars that ensure a holistic education experience:
@@ -23,14 +23,14 @@ Dinaledi Student Hub is built on five core architectural pillars that ensure a h
 Comprehensive support for every subject in the South African curriculum. Whether it's Foundation Phase Literacy or University-level Engineering, our platform hosts qualified experts waiting to mentor.
 
 ### 2. Absolute Safety & Security
-- **
- Emergency SOS**: One-tap panic button with direct integration to SAPS (10111), Ambulance, and Child Protection.
-- ** Parental Safety Tracker**: Live monitoring of tutor sessions, location tracking, and verified tutor ID logging.
-- **Safe-Pay System**: Secure, scam-proof payments via PayFast (ZAR).
+- 
+ Emergency SOS: One-tap panic button with direct integration to SAPS (10111), Ambulance, and Child Protection.
+-  Parental Safety Tracker: Live monitoring of tutor sessions, location tracking, and verified tutor ID logging.
+- Safe-Pay System: Secure, scam-proof payments via PayFast (ZAR).
 
 ### 3. Discipline & Routine Engine
-- **Automated Reminders**: Smart notifications for Wake-up (06:30), Homework (15:00), Study, and Sleep.
-- **Weekly Scheduler**: A day-by-day ritual builder to turn students into high-performers.
+- Automated Reminders: Smart notifications for Wake-up (06:30), Homework (15:00), Study, and Sleep.
+- Weekly Scheduler: A day-by-day ritual builder to turn students into high-performers.
 
 ### 4.  Teacher Empowerment & HR
 - **HR Application Portal**: A dedicated gateway for well-qualified teachers to submit credentials for vetting.
