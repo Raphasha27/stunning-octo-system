@@ -1,4 +1,4 @@
-# Dinaledi Student Hub 
+6# Dinaledi Student Hub 
 ### Powered by Kirov Dynamics Technology & House of Tech
 
 **THE NATIONAL SMART EDUCATION & DISCIPLINE ECOSYSTEM**
@@ -17,7 +17,7 @@ Our mission is to scale academic excellence and discipline starting from our pri
 ---
 
 ##  The Five Pillar System
-Kirov Learn SA is built on five core architectural pillars that ensure a holistic education experience:
+Dinaledi Student Hub is built on five core architectural pillars that ensure a holistic education experience:
 
 ### 1. Universal Learning Hub
 Comprehensive support for every subject in the South African curriculum. Whether it's Foundation Phase Literacy or University-level Engineering, our platform hosts qualified experts waiting to mentor.
@@ -61,7 +61,7 @@ Our "House of Tech" security team monitors the ecosystem 24/7 for suspicious beh
 
 ## Milestone Development
 - **Status**: Milestone Build 1.0 (Live Terminal Scanning Enabled)
-- **Primary Hub**: Atteridgeville, Pretoria 
+- **Primary Hub**:  Pretoria 
 - **Service Model**: In-Person House Calls & Online Lessons (Charged per hour at SA Market Rates).
 - **Engine**: Local Notification Engine & Real-time Weather/Time Integration.
 
