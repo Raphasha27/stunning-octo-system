@@ -26,12 +26,27 @@ export default function HomeScreen({ navigation }) {
 
         {/* Quick Categories */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Quick Categories</Text>
+          <Text style={styles.sectionTitle}>High School Focus 🇿🇦</Text>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.categories}>
-            <CategoryCard icon={GraduationCap} label="High School" color="#e0e7ff" iconColor="#6366f1" />
-            <CategoryCard icon={BookOpen} label="Primary" color="#fef3c7" iconColor="#d97706" />
-            <CategoryCard icon={Laptop} label="University" color="#dcfce7" iconColor="#16a34a" />
-            <CategoryCard icon={MapPin} label="Local" color="#fee2e2" iconColor="#dc2626" />
+            <CategoryCard icon={GraduationCap} label="Grade 12" color="#e0e7ff" iconColor="#6366f1" />
+            <CategoryCard icon={BookOpen} label="Grade 11" color="#fef3c7" iconColor="#d97706" />
+            <CategoryCard icon={Laptop} label="Grade 10" color="#dcfce7" iconColor="#16a34a" />
+            <CategoryCard icon={MapPin} label="Rural/Urban" color="#fee2e2" iconColor="#dc2626" />
+          </ScrollView>
+        </View>
+
+        {/* Pretoria Spotlight */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Pretoria Spotlight 📍</Text>
+          <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.categories}>
+             <View style={styles.spotlightCard}>
+                <Text style={styles.spotlightTitle}>Pretoria East Study Drive</Text>
+                <Text style={styles.spotlightText}>Join 500+ students this Saturday.</Text>
+             </View>
+             <View style={styles.spotlightCard}>
+                <Text style={styles.spotlightTitle}>Mamelodi Exam Hub</Text>
+                <Text style={styles.spotlightText}>Free past papers available now.</Text>
+             </View>
           </ScrollView>
         </View>
 
@@ -128,6 +143,18 @@ const styles = StyleSheet.create({
     marginRight: 15,
   },
   catLabel: { marginTop: 8, fontSize: 12, fontWeight: '600' },
+  spotlightCard: {
+    width: 200,
+    backgroundColor: '#fff',
+    padding: 15,
+    borderRadius: 16,
+    marginRight: 15,
+    borderLeftWidth: 4,
+    borderLeftColor: '#6366f1',
+    elevation: 2,
+  },
+  spotlightTitle: { fontSize: 14, fontWeight: 'bold', color: '#1e293b' },
+  spotlightText: { fontSize: 11, color: '#64748b', marginTop: 5 },
   grid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
